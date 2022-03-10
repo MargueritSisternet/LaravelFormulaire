@@ -6,7 +6,7 @@
             <h2 class="panel-title">Formulaire #2 News</h2>
         </div>
         <div class="panel-body">
-            <form class="" action="" method="">
+            <form class="" action="/user" method="post">
 
                 <div class="form-group">
                     <label for="title">Title</label>

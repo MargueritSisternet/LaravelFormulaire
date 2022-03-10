@@ -9,8 +9,10 @@
             <form class="" action="/user" method="post">
                 {{ csrf_field() }}
                 <div class="form-group">
-                    <label for="firstname">firstname</label>
+                    <label for="firstname">Firstname</label>
                     <input type="text" class="form-control" name="firstname" placeholder="firstname">
+                    <label for="lastname">Lastname</label>
+                    <input type="text" class="form-control" name="lastname" placeholder="lastname">
                 </div>
                 <div class="form-group">
                     <label for="gender">Gender</label>
@@ -27,6 +29,7 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <label for="mood">Mood</label>
                     <div class="radio">
                       <label>
                         <input type="radio" name="mood" value="happy" checked>
